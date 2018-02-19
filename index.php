@@ -27,6 +27,13 @@
       </section>
 
       <footer>
+        <form method="post" action="confirmation_form.php">
+          <label for="pseudo">Pseudo :</label>
+          <input type="text" name="pseudo">
+          <label for="message">Message :</label>
+          <input type="text" name="message">
+          <input type="submit" value="Envoyer !">
+        </form>
       </footer>
   </body>
 </html>
