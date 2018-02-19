@@ -21,6 +21,8 @@ if (isset($_POST['pseudo']) && $_POST['message'])
 	$req->execute();
 
 	$req->closeCursor();
+
+	echo 'Merci pour votre message '.$pseudo.' !';
 }
 
 else
